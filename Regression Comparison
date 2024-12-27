@@ -1,0 +1,17 @@
+In this we will be learning the comparision between linear regression, polynomial regression, lasso regression and ridge regression
+Linear Regression:
+   Linear Regression is a basic statistical method used to predict a target variable (y) as a linear combination of independent variables (X).
+   It assumes a straight-line relationship between the dependent and independent variables.
+   Best for datasets with linear relationships between features and target.
+Polynomial Regression:
+   Polynomial Regression is a type of regression that models the relationship between the target variable and independent variables as an nth-degree polynomial. 
+   It captures non-linear relationships by transforming features into polynomial terms.
+   Best when the relationship between predictors and target is non-linear.
+Lasso Regression:
+   Lasso Regression is a type of linear regression that adds an L1 regularization term to the loss function. 
+   This penalizes the absolute size of coefficients, encouraging sparse models where irrelevant features have coefficients of zero.
+   Effective for feature selection and preventing overfitting in high-dimensional datasets.
+Ridge Regression:
+   Ridge Regression is a linear regression technique that adds an L2 regularization term to the loss function. 
+   This penalizes the squared magnitude of coefficients, shrinking them towards zero without making them exactly zero.
+   Effective in dealing with multicollinearity and preventing overfitting, while retaining all features.
